@@ -1,0 +1,12 @@
+the xpdl package is generated. This is done by JAXB. Using a JAXB compiler you can 
+give a XSD schema as input from which it generates Java Source code. This has the 
+advantage that you don't need to complex DOM or SAX processing anymore. You can 
+directly use the generated classes. 
+
+
+you can run the JAXB compiler as follows. open a console where yout jaxb compiler 
+resides then type: xjc [filename]
+
+For XPDL2.1 a modified XSD file was used. this because the normal version doesn't 
+compile and gives a lot of errors. The modified XSD file is modified again to 
+support PVDI Constraints. 
